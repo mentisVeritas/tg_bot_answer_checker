@@ -9,7 +9,6 @@ from handlers import common, user, admin
 
 
 async def main():
-    # Инициализация бота
     bot = Bot(
         token=BOT_TOKEN,
         default=DefaultBotProperties(parse_mode="HTML")
